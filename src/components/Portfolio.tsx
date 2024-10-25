@@ -1,4 +1,5 @@
 import PortofolioCard from "./Elements/PortofolioCard";
+import SubTitle from "./Elements/SubTitle";
 import Title from "./Elements/Title";
 
 const Portfolio = () => {
@@ -9,9 +10,7 @@ const Portfolio = () => {
           <Title>
             <span className="text-slate-900">My</span> Portfolio
           </Title>
-          <h1 className="text-4xl font-medium text-slate-800">
-            My Recent Projects
-          </h1>
+          <SubTitle>My Recent Projects</SubTitle>
         </div>
         <div className="mb-8 grid grid-cols-3 gap-4">
           <PortofolioCard />

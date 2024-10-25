@@ -1,4 +1,5 @@
 import Button from "./Elements/Button";
+import SubTitle from "./Elements/SubTitle";
 import Title from "./Elements/Title";
 
 const AboutMe = () => {
@@ -32,9 +33,9 @@ const AboutMe = () => {
           <Title>
             <span className="text-slate-900">About</span> Me
           </Title>
-          <h1 className="mb-4 text-[40px] font-medium text-slate-800">
-            I Enjoy Solving Problems With Scalable Solutions
-          </h1>
+          <SubTitle>
+            I Enjoy Solving Problems <br /> With Scalable Solutions
+          </SubTitle>
           <div className="mb-5 text-sm font-normal text-gray-500">
             <p className="mb-2">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
