@@ -1,15 +1,14 @@
 import PortofolioCard from "./Elements/PortofolioCard";
-import Testimoni from "./Elements/Testimoni";
+import Title from "./Elements/Title";
 
 const Portfolio = () => {
   return (
     <section className="w-full pt-20">
       <div className="container m-auto mb-10">
         <div className="mb-10">
-          <h2 className="mb-1 text-lg font-medium text-red-600">
-            <span className="text-slate-900">My </span>
-            Portfolio
-          </h2>
+          <Title>
+            <span className="text-slate-900">My</span> Portfolio
+          </Title>
           <h1 className="text-4xl font-medium text-slate-800">
             My Recent Projects
           </h1>
@@ -19,8 +18,6 @@ const Portfolio = () => {
           <PortofolioCard />
           <PortofolioCard />
         </div>
-
-        <Testimoni />
       </div>
     </section>
   );

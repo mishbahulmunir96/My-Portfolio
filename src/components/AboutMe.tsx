@@ -1,4 +1,5 @@
 import Button from "./Elements/Button";
+import Title from "./Elements/Title";
 
 const AboutMe = () => {
   return (
@@ -28,9 +29,9 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="my-auto h-full rounded-md">
-          <h2 className="mb-1 text-lg font-medium text-slate-900">
-            About <span className="text-red-600">Me</span>
-          </h2>
+          <Title>
+            <span className="text-slate-900">About</span> Me
+          </Title>
           <h1 className="mb-4 text-[40px] font-medium text-slate-800">
             I Enjoy Solving Problems With Scalable Solutions
           </h1>

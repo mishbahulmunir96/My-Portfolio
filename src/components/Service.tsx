@@ -1,13 +1,12 @@
 import ServiceCard from "./Elements/ServiceCard";
+import Title from "./Elements/Title";
 
 const Service = () => {
   return (
     <section className="pt-20">
       <div className="container m-auto">
         <div className="text-center">
-          <h2 className="text-base font-medium text-red-600">
-            <span className="text-slate-900">My</span> Services
-          </h2>
+          <Title ><span className="text-slate-900">My</span> Services</Title>
           <h3 className="mb-10 text-4xl font-medium text-slate-900">
             Providing trusted <br />
             web development services
