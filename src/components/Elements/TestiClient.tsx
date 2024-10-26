@@ -8,7 +8,7 @@ const TestiClient = () => {
           exercitationem illo adipisci facere."
         </p>
       </div>
-      <div className="flex items-center justify-center gap-6">
+      <div className="mt-6 flex items-center justify-center gap-6">
         <div className="relative">
           <div className="flex h-16 w-16 items-center justify-center rounded-full border border-red-600">
             <img
