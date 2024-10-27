@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutMe";
+import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -17,6 +18,7 @@ function App() {
       <Portfolio />
       <Testimoni />
       <Contact />
+      <Blog />
       <Footer />
     </>
   );
