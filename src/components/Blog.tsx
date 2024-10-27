@@ -1,6 +1,5 @@
 import Title from "./Elements/Title";
 import SubTitle from "./Elements/SubTitle";
-import ServiceCard from "./Elements/ServiceCard";
 import PortofolioCard from "./Elements/PortofolioCard";
 
 const Blog = () => {
